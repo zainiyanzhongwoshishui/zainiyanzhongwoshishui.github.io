@@ -1,11 +1,16 @@
 form{
     color: pink;
-    font-size: x-large;
 }
 span{
     color: pink;
-    font-size:x-large;
 }
 body{
    background-color: bisque;
+}
+a{
+    text-decoration: none;
+}
+.none{
+    text-decoration: line-through;
+    color: blueviolet;
 }
