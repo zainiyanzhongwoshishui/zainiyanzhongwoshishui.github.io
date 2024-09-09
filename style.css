@@ -10,7 +10,35 @@ body{
 a{
     text-decoration: none;
 }
+a:link{
+    text-decoration: none;
+    color: #09c;
+}/*鼠标普通未被访问的*/
+a:visited{
+    text-decoration: none;
+    color: darkviolet;
+}/*鼠标点击后的状态*/
+a:hover
+{
+    text-decoration: underline;
+    font-size: 120%;
+    color: #03c;
+}/*鼠标悬停状态时的设置*/
+a:active{
+    text-decoration: none;
+    color: #666;
+}/*激活状态下*/
 .none{
     text-decoration: line-through;
     color: blueviolet;
 }
+ul{
+    list-style-type: square;
+    list-style-position: outside; 
+}
+
+
+
+
+
+
