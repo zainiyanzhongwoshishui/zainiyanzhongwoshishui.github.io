@@ -28,13 +28,35 @@ a:active{
     text-decoration: none;
     color: #666;
 }/*激活状态下*/
-.none{
+.delete{
     text-decoration: line-through;
-    color: blueviolet;
+    color: rgb(0, 0, 0);
 }
 ul{
     list-style-type: square;
     list-style-position: outside; 
+}
+.content{
+    width: 1000px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    overflow: auto;
+
+}
+.stress
+{
+    font-weight: bold;
+    font-size: large;
+}
+
+tr:nth-child(odd)
+{
+    background-color: aquamarine;
+}
+th
+{
+    background-color: chartreuse;
 }
 
 
