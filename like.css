@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  /* 页面布局 */
+  .wrapper {
+    display: flex;              /* 使用flex布局 */
+    align-items: center;        /* 垂直居中 */
+    justify-content: center;    /* 水平居中 */
+    height: 100vh;              /* 充满整个视口 */
+  }
+  /* 点赞按钮 */
+  .like-btn {
+    cursor: pointer;           /* 鼠标悬停样式 */
+    background-color: #ff7894; /* 背景颜色，渐变配色 */
+    background-image: linear-gradient(to bottom, #ff7894, #ff5e91);
+    color: #fff;                /* 字体颜色白色 */
+    border: none;               /* 去除边框 */
+    border-radius: 5px;         /* 圆角 */
+    font-size: 20px;            /* 字号 */
+    padding: 10px 20px;         /* 内边距 */
+    margin-right: 10px;         /* 右外边距 */
+    box-shadow: 0 2px 6px 0px rgba(255, 120, 148, 0.5);  /* 阴影效果 */
+  }
+  .like-btn:hover {
+    background-image: linear-gradient(to top, #ff7894, #ff5e91); /* 悬停渐变处理 */
+    box-shadow: 0 2px 6px 0px rgba(255, 120, 148, 0.9);  /* 阴影效果 */
+  }
+  /* 点赞数量统计 */
+  .like-text {
+    font-size: 16px;
+    color: #ff5e91;
+  }
